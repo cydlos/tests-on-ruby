@@ -1,3 +1,5 @@
+require 'team.rb'
+
 RSpec.describe Team do
 
   it 'creates a team class' do
@@ -6,4 +8,3 @@ RSpec.describe Team do
   end
 
 end
-
