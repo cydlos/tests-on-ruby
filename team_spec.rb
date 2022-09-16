@@ -16,5 +16,4 @@ RSpec.describe Team do
     team = Team.new
     expect(team.play).to eq ('We are playing')
   end
-
 end
