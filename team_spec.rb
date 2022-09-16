@@ -7,4 +7,9 @@ RSpec.describe Team do
     expect(team).to be_kind_of(Team)
   end
 
+  it 'plays' do
+    team = Team.new
+    expect(team).to respond_to(:play)
+  end
+
 end
