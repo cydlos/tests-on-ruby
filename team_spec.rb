@@ -2,7 +2,7 @@ require 'team.rb'
 
 RSpec.describe Team do
 
-  # check whether there is a 'Team' class
+  # checks whether there is a 'Team' class
   it 'creates a team class' do
     team = Team.new
     expect(team).to be_kind_of(Team)
