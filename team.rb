@@ -1,6 +1,5 @@
 class Team
   def play
-    # passes both tests
+    'We are playing!'
   end
 end
-
