@@ -12,4 +12,9 @@ RSpec.describe Team do
     expect(team).to respond_to(:play)
   end
 
+  it 'responds to play with a message' do
+    team = Team.new
+    expect(team.play).to eq ('We are playing')
+  end
+
 end
